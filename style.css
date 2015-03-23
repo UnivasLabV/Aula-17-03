@@ -1,4 +1,16 @@
-.example:hover{ 
-    text-decoration: underline;
-    text-decoration-color: red;
-}	
+div{
+  
+  color:black;
+  font-weigth:bold;
+  width: 118px;
+  
+}
+
+div:hover
+{ 
+  /*-moz-text-decoration-color:red;Usado para o Firefox*/
+ /* text-decoration-color:red;*/
+  border-bottom:2px solid;
+  border-color:red;
+  
+}
