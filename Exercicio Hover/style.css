@@ -1,7 +1,10 @@
-.example:hover{ 
+p:hover .highlight { 
 	text-decoration: underline; 
 	color:#000; 
-	background:#ff0; 
+	background: yellow; 
 	}
-</style>
-}	
+
+p:hover .high {
+	background-color: red;
+	color: #000;
+}
